@@ -1,46 +1,47 @@
-//
-//  AppDelegate.m
-//  The Line 2
-//
-//  Created by Mick on 5/31/14.
-//  Copyright (c) 2014 MacCDevTeam LLC. All rights reserved.
-//
-
+@import GameKit;
 #import "AppDelegate.h"
-
+#import "Appirater.h"
 @implementation AppDelegate
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
-}
-							
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-}
+    [Appirater setAppId:@"884935957"];
+    [Appirater setDaysUntilPrompt:3];
+    [Appirater setUsesUntilPrompt:5];
+    [Appirater setSignificantEventsUntilPrompt:15];
+    [Appirater setTimeBeforeReminding:2];
+    [Appirater setOpenInAppStore:YES];
+    [Appirater setDebug:NO];
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    [Appirater appLaunched:YES];
+
+    [self authenticateLocalPlayer];
+
+    return YES;
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [Appirater appEnteredForeground:YES];
+
+    [self authenticateLocalPlayer];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [self authenticateLocalPlayer];
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
+- (void)authenticateLocalPlayer
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
+    [[GKLocalPlayer localPlayer] setAuthenticateHandler:^(UIViewController *viewController, NSError *error) {
 
+        GKScore *score = [[GKScore alloc] initWithLeaderboardIdentifier:@"scoreLeaderboard"];
+        [score setValue:[[NSUserDefaults standardUserDefaults] integerForKey:@"highScore"]];
+
+        [GKScore reportScores:@[score] withCompletionHandler:^(NSError *error) {
+            NSLog(@"Reporting Error: %@",error);
+        }];
+
+    }];
+}
 @end

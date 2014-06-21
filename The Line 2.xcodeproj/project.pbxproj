@@ -15,16 +15,21 @@
 		00D94B2F193AD6A400F900CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D94B2E193AD6A400F900CD /* main.m */; };
 		00D94B33193AD6A400F900CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D94B32193AD6A400F900CD /* AppDelegate.m */; };
 		00D94B36193AD6A400F900CD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D94B34193AD6A400F900CD /* Main_iPhone.storyboard */; };
-		00D94B39193AD6A400F900CD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D94B37193AD6A400F900CD /* Main_iPad.storyboard */; };
 		00D94B3C193AD6A400F900CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D94B3B193AD6A400F900CD /* ViewController.m */; };
 		00D94B3F193AD6A400F900CD /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D94B3E193AD6A400F900CD /* MyScene.m */; };
-		00D94B41193AD6A400F900CD /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D94B40193AD6A400F900CD /* Spaceship.png */; };
 		00D94B43193AD6A400F900CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D94B42193AD6A400F900CD /* Images.xcassets */; };
 		00D94B4A193AD6A400F900CD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D94B49193AD6A400F900CD /* XCTest.framework */; };
 		00D94B4B193AD6A400F900CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D94B20193AD6A400F900CD /* Foundation.framework */; };
 		00D94B4C193AD6A400F900CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D94B24193AD6A400F900CD /* UIKit.framework */; };
 		00D94B54193AD6A400F900CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00D94B52193AD6A400F900CD /* InfoPlist.strings */; };
 		00D94B56193AD6A400F900CD /* The_Line_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D94B55193AD6A400F900CD /* The_Line_2Tests.m */; };
+		00D94B63193AD9F700F900CD /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D94B62193AD9F700F900CD /* iAd.framework */; };
+		00DCAF4D193C797600DF334C /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCAF4C193C797600DF334C /* GameOver.m */; };
+		00DCAF4F193C9B1C00DF334C /* ComicNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00DCAF4E193C9B1C00DF334C /* ComicNeue-Regular.ttf */; };
+		00DCAF53193CA3D600DF334C /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCAF51193CA3D600DF334C /* Appirater.m */; };
+		00DCAF56193CAEEE00DF334C /* lose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 00DCAF54193CAEEE00DF334C /* lose.m4a */; };
+		00DCAF57193CAEEE00DF334C /* tap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 00DCAF55193CAEEE00DF334C /* tap.m4a */; };
+		00DCAF5A193CCE4900DF334C /* DSMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCAF59193CCE4900DF334C /* DSMultilineLabelNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,18 +55,27 @@
 		00D94B31193AD6A400F900CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00D94B32193AD6A400F900CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		00D94B35193AD6A400F900CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		00D94B38193AD6A400F900CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		00D94B3A193AD6A400F900CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		00D94B3B193AD6A400F900CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		00D94B3D193AD6A400F900CD /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		00D94B3E193AD6A400F900CD /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		00D94B40193AD6A400F900CD /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		00D94B42193AD6A400F900CD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		00D94B48193AD6A400F900CD /* The Line 2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Line 2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D94B49193AD6A400F900CD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		00D94B51193AD6A400F900CD /* The Line 2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Line 2Tests-Info.plist"; sourceTree = "<group>"; };
 		00D94B53193AD6A400F900CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00D94B55193AD6A400F900CD /* The_Line_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Line_2Tests.m; sourceTree = "<group>"; };
+		00D94B62193AD9F700F900CD /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		00DCAF4B193C797600DF334C /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		00DCAF4C193C797600DF334C /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		00DCAF4E193C9B1C00DF334C /* ComicNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComicNeue-Regular.ttf"; sourceTree = "<group>"; };
+		00DCAF50193CA3D600DF334C /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
+		00DCAF51193CA3D600DF334C /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
+		00DCAF52193CA3D600DF334C /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
+		00DCAF54193CAEEE00DF334C /* lose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lose.m4a; sourceTree = "<group>"; };
+		00DCAF55193CAEEE00DF334C /* tap.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.m4a; sourceTree = "<group>"; };
+		00DCAF58193CCE4900DF334C /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
+		00DCAF59193CCE4900DF334C /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D94B63193AD9F700F900CD /* iAd.framework in Frameworks */,
 				00D94B23193AD6A400F900CD /* CoreGraphics.framework in Frameworks */,
 				00D94B25193AD6A400F900CD /* UIKit.framework in Frameworks */,
 				00D94B27193AD6A400F900CD /* SpriteKit.framework in Frameworks */,
@@ -111,6 +126,7 @@
 		00D94B1F193AD6A400F900CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00D94B62193AD9F700F900CD /* iAd.framework */,
 				00D94B20193AD6A400F900CD /* Foundation.framework */,
 				00D94B22193AD6A400F900CD /* CoreGraphics.framework */,
 				00D94B24193AD6A400F900CD /* UIKit.framework */,
@@ -126,12 +142,17 @@
 				00D94B31193AD6A400F900CD /* AppDelegate.h */,
 				00D94B32193AD6A400F900CD /* AppDelegate.m */,
 				00D94B34193AD6A400F900CD /* Main_iPhone.storyboard */,
-				00D94B37193AD6A400F900CD /* Main_iPad.storyboard */,
 				00D94B3A193AD6A400F900CD /* ViewController.h */,
 				00D94B3B193AD6A400F900CD /* ViewController.m */,
 				00D94B3D193AD6A400F900CD /* MyScene.h */,
 				00D94B3E193AD6A400F900CD /* MyScene.m */,
-				00D94B40193AD6A400F900CD /* Spaceship.png */,
+				00DCAF4B193C797600DF334C /* GameOver.h */,
+				00DCAF4C193C797600DF334C /* GameOver.m */,
+				00DCAF58193CCE4900DF334C /* DSMultilineLabelNode.h */,
+				00DCAF59193CCE4900DF334C /* DSMultilineLabelNode.m */,
+				00DCAF50193CA3D600DF334C /* Appirater.h */,
+				00DCAF51193CA3D600DF334C /* Appirater.m */,
+				00DCAF52193CA3D600DF334C /* AppiraterDelegate.h */,
 				00D94B42193AD6A400F900CD /* Images.xcassets */,
 				00D94B29193AD6A400F900CD /* Supporting Files */,
 			);
@@ -141,6 +162,9 @@
 		00D94B29193AD6A400F900CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00DCAF54193CAEEE00DF334C /* lose.m4a */,
+				00DCAF55193CAEEE00DF334C /* tap.m4a */,
+				00DCAF4E193C9B1C00DF334C /* ComicNeue-Regular.ttf */,
 				00D94B2A193AD6A400F900CD /* The Line 2-Info.plist */,
 				00D94B2B193AD6A400F900CD /* InfoPlist.strings */,
 				00D94B2E193AD6A400F900CD /* main.m */,
@@ -243,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D94B41193AD6A400F900CD /* Spaceship.png in Resources */,
 				00D94B43193AD6A400F900CD /* Images.xcassets in Resources */,
-				00D94B39193AD6A400F900CD /* Main_iPad.storyboard in Resources */,
+				00DCAF56193CAEEE00DF334C /* lose.m4a in Resources */,
+				00DCAF4F193C9B1C00DF334C /* ComicNeue-Regular.ttf in Resources */,
+				00DCAF57193CAEEE00DF334C /* tap.m4a in Resources */,
 				00D94B36193AD6A400F900CD /* Main_iPhone.storyboard in Resources */,
 				00D94B2D193AD6A400F900CD /* InfoPlist.strings in Resources */,
 			);
@@ -266,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00DCAF5A193CCE4900DF334C /* DSMultilineLabelNode.m in Sources */,
+				00DCAF53193CA3D600DF334C /* Appirater.m in Sources */,
 				00D94B3F193AD6A400F900CD /* MyScene.m in Sources */,
+				00DCAF4D193C797600DF334C /* GameOver.m in Sources */,
 				00D94B3C193AD6A400F900CD /* ViewController.m in Sources */,
 				00D94B33193AD6A400F900CD /* AppDelegate.m in Sources */,
 				00D94B2F193AD6A400F900CD /* main.m in Sources */,
@@ -306,14 +334,6 @@
 				00D94B35193AD6A400F900CD /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		00D94B37193AD6A400F900CD /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00D94B38193AD6A400F900CD /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		00D94B52193AD6A400F900CD /* InfoPlist.strings */ = {
@@ -407,8 +427,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Line 2/The Line 2-Prefix.pch";
 				INFOPLIST_FILE = "The Line 2/The Line 2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,8 +443,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "The Line 2/The Line 2-Prefix.pch";
 				INFOPLIST_FILE = "The Line 2/The Line 2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -486,6 +510,7 @@
 				00D94B5B193AD6A400F900CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00D94B5C193AD6A400F900CD /* Build configuration list for PBXNativeTarget "The Line 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +519,7 @@
 				00D94B5E193AD6A400F900CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
